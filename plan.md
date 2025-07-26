@@ -1,67 +1,74 @@
-# Memristor DIY Project Plan 🚀
+# 🧠 MEMRISTOR RESEARCH & DIY PLAN
 
-🧠 *"Bukan sekadar meniru industri, tapi menciptakan jalur baru dari garasi kita sendiri."*
+## 📌 Tujuan
+Meneliti dan mengembangkan memristor dari dasar teori, simulasi SPICE, hingga tahap eksperimental dan potensi realisasi chip dalam bentuk DIY/maker lab.
 
-## 🎯 Visi
+## 📅 Roadmap Umum
 
-Membangun pemahaman mendalam dan eksperimen nyata terkait memristor dari skala makro hingga potensial integrasi ke sistem cerdas dan embedded (AI, drone, robotik), dimulai dari pendekatan DIY dan eksplorasi terbuka.
+### 1. 🧠 Pemahaman Teori
+- [ ] Studi paper seminal *Leon Chua 1971* & *HP Labs 2008*
+- [ ] Pelajari fisika semikonduktor: switching, hysteresis, dan resistive switching
+- [ ] Bandingkan memristor dengan Flash, NAND, dan ReRAM
+- [ ] Pelajari jenis-jenis memristor: TiO₂-based, ECM, VCM, ferroelectric
 
----
+### 2. 🧪 Simulasi (SPICE / Python / Verilog-A)
+- [ ] Simulasi switching model TiO₂ (linear + nonlinear drift)
+- [ ] Simulasi behavior hysteresis (Python: `mu_v`, `Ron`, `Roff`, dll)
+- [ ] Simulasi SPICE untuk rangkaian neuromorfik sederhana
+- [ ] Visualisasi interaktif (Jupyter + `ipywidgets`)
+- [ ] Benchmark terhadap SRAM/NAND dari segi latency, power, retention
 
-## 📌 Tahapan Proyek
+### 3. 🔧 Eksperimen & DIY Lab
+- [ ] Rancang eksperimen resistive switching (TiO₂, Ag₂S, atau CuO)
+- [ ] Buat thin film secara manual: drop-casting / spin coating / sol-gel
+- [ ] DIY photolithography (mask, UV exposure, etching)
+- [ ] Karakterisasi: multimeter, SMU (Source Measure Unit), oscilloscope
+- [ ] Gunakan PCB/FPC untuk koneksi antar elektroda
 
-### ⚙️ 1. Pemahaman Teori dan Literatur
-- [ ] Pelajari paper seminal HP Labs 2008: "The missing memristor found"
-- [ ] Bandingkan teknologi memristor vs ReRAM, Flash, dan NVM lain
-- [ ] Pelajari model matematis memristor (Strukturnya: TiO₂, Schottky Barrier, doped/undoped)
-- [ ] Eksplorasi aplikasi: edge-AI, neuromorphic computing, programmable analog
-- [ ] Kumpulkan jurnal dan review (taruh di `references.md`)
+### 4. 🧬 Reproduksi Lab Sederhana (referensi: Sam Zeloof)
+- [ ] Bangun mini clean box (HEPA filter + chamber)
+- [ ] Rancang sputtering/evaporator skala kecil (magnetron atau resistive heating)
+- [ ] Buat mask alignment DIY (menggunakan kamera + laser pointer)
+- [ ] Gunakan FPGA/MCU untuk stimulus sinyal switching
 
-### 🔬 2. Simulasi dan Model
-- [ ] Buat simulasi dasar I-V memristor dengan Python (Sudah ada dasar)
-- [ ] Tambahkan slider interaktif (misal resistivitas, tegangan input)
-- [ ] Coba simulasikan logic gate berbasis memristor
-- [ ] Buat model jaringan memristor (untuk CNN mini misalnya)
+### 5. 🧠 AI & Neuromorphic Target
+- [ ] Simulasi jaringan saraf dengan memristor sebagai sinaps
+- [ ] Benchmark inference di edge device (drone / robot)
+- [ ] Evaluasi arsitektur komputasi in-memory
+- [ ] Coba integrasi dengan FPGA untuk sistem hybrid
 
-### 🧪 3. Eksperimen Fisik Skala Makro
-- [ ] Rancang skema rangkaian sederhana (misal dengan TiO₂ paste)
-- [ ] Buat prototipe dengan plat kaca, elektrode Al/Cu, dan larutan TiO₂
-- [ ] Uji IV curve menggunakan oscilloscope / ADC + Python plotting
-- [ ] Cek histeresis dan memory effect
-
-### 🛠️ 4. Persiapan DIY Lab dan Tools
-- [ ] Sederhanakan photolithography: LED UV, resin/bahan photoresist
-- [ ] Coba mask printing (transparansi)
-- [ ] Buat mini spin coater dari motor
-- [ ] Mulai eksperimen sputtering/evaporasi sederhana
-- [ ] Amankan ventilasi dan APD!
-
-### 🧭 5. Rencana Jangka Menengah
-- [ ] Kembangkan PCB dengan footprint untuk memristor (pakai socket dulu)
-- [ ] Buat rangkaian ADC-memristor-MCU atau FPGA kecil
-- [ ] Rancang logic gate / array memristor untuk inference ringan (AI kecil)
-- [ ] Bandingkan dengan LUT di FPGA — tunjukkan keunggulan hybrid analog
-
----
-
-## 🧭 Arah Besar
-
-> Bila berhasil, proyek ini membuka jalan untuk:
-- Platform open-hardware AI edge dengan memristor sebagai core
-- Simulasi & eksperimen untuk riset neuromorphic computing dari rumah
-- Potensi start-up berbasis *green nano-device* dan low-power AI
-- Pengetahuan praktikal: dari photolithography, sputtering, hingga devkit IoT
+### 6. 🚀 Finalisasi & Rilis
+- [ ] Rancang board memristor tester open-source
+- [ ] Publish makalah atau jurnal mandiri
+- [ ] Dokumentasi lengkap di GitHub: schematic, PCB, simulasi
+- [ ] Video edukasi / vlog eksperimen
 
 ---
 
-## 🧑‍💻 Kontak dan Update
-- Blog: [`https://github.com/Bluefox192/memristor`](https://github.com/Bluefox192/memristor)
-- Kontak: via Issues/Discussions GitHub
-- [ ] Rencana buat demo video: *IV hysteresis curve from homemade memristor*
+## 🧰 Tools dan Stack yang Digunakan
+
+| Tool           | Keterangan                        |
+|----------------|-----------------------------------|
+| Python         | Simulasi & plotting               |
+| Ngspice/Xyce   | Simulasi sirkuit SPICE            |
+| KiCad          | PCB design & layout               |
+| GHDL/Verilog   | Jika ingin integrasi dengan FPGA  |
+| Jupyter        | Visualisasi interaktif            |
+| GitHub Actions | CI & tracking tugas otomatis      |
 
 ---
 
-## 📚 Referensi Utama (juga ada di `references.md`)
-- Strukov, Dmitri B., et al. *"The missing memristor found."* Nature 2008.
-- Yang, J. J., et al. *"Memristive switching mechanism for metal/oxide/metal nanodevices."* Nature Nano 2008.
-- IEEE ReRAM tutorial (2023)
+## ⏳ CI/Automation
+Untuk tracking harian dan otomatisasi task, file `tasks.yml` akan digunakan. Notifikasi bisa diberikan melalui terminal (CLI) lokal via GitHub CLI + crontab atau `act`.
+
+---
+
+## ✅ Contoh Tugas Harian (Tasks.yaml)
+
+```yaml
+- task: Baca paper HP Labs 2008
+  status: todo
+- task: Simulasi nonlinear drift (Python)
+  status: in-progress
+- task: Uji switching TiO₂
+  status: todo
