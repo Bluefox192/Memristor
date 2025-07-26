@@ -4,19 +4,7 @@
 ![Made with](https://img.shields.io/badge/Made%20with-Love-red)
 ![Platform](https://img.shields.io/badge/Platform-DIY%20Electronics-lightgrey)
 ![Focus](https://img.shields.io/badge/Focus-Memristor%20&%20Nanoelectronics-yellow)
-![Last Update](https://img.shields.io/github/last-commit/Bluefox192/memristor-project)
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Project Goals](#project-goals)
-- [Milestones](#milestones)
-- [Technologies Used](#technologies-used)
-- [Daily Task Plan](#daily-task-plan)
-- [DIY Fabrication Steps](#diy-fabrication-steps)
-- [Future Directions](#future-directions)
-- [References](#references)
-- [License](#license)
+![Last Update](https://img.shields.io/github/last-commit/Bluefox192/Memristor)
 
 ### Papers & Academic Resources
 - Chua, L. O. (1971). [Memristor - The Missing Circuit Element](https://ieeexplore.ieee.org/document/1083337). *IEEE Transactions on Circuit Theory*.
