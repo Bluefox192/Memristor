@@ -6,7 +6,7 @@ Meneliti dan mengembangkan memristor dari dasar teori, simulasi SPICE, hingga ta
 ## 📅 Roadmap Umum
 
 ### 1. 🧠 Pemahaman Teori
-- [ ] Studi paper seminal *Leon Chua 1971* & *HP Labs 2008*
+- [✓] Studi paper seminal *Leon Chua 1971* & *HP Labs 2008*
 - [ ] Pelajari fisika semikonduktor: switching, hysteresis, dan resistive switching
 - [ ] Bandingkan memristor dengan Flash, NAND, dan ReRAM
 - [ ] Pelajari jenis-jenis memristor: TiO₂-based, ECM, VCM, ferroelectric
