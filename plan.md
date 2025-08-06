@@ -9,7 +9,7 @@ Meneliti dan mengembangkan memristor dari dasar teori, simulasi SPICE, hingga ta
 - [✓] Studi paper seminal *Leon Chua 1971* & *HP Labs 2008*
 - [✓] Pelajari fisika semikonduktor: switching, hysteresis, dan resistive switching
 - [✓] Bandingkan memristor dengan Flash, NAND, dan ReRAM
-- [ ] Pelajari jenis-jenis memristor: TiO₂-based, ECM, VCM, ferroelectric
+- [✓] Pelajari jenis-jenis memristor: TiO₂-based, ECM, VCM, ferroelectric
 
 ### 2. 🧪 Simulasi (SPICE / Python / Verilog-A)
 - [ ] Simulasi switching model TiO₂ (linear + nonlinear drift)
