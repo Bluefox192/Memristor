@@ -12,7 +12,7 @@ Meneliti dan mengembangkan memristor dari dasar teori, simulasi SPICE, hingga ta
 - [✓] Pelajari jenis-jenis memristor: TiO₂-based, ECM, VCM, ferroelectric
 
 ### 2. 🧪 Simulasi (SPICE / Python / Verilog-A)
-- [ ] Simulasi switching model TiO₂ (linear + nonlinear drift)
+- [✓] Simulasi switching model TiO₂ (linear + nonlinear drift)
 - [ ] Simulasi behavior hysteresis (Python: `mu_v`, `Ron`, `Roff`, dll)
 - [ ] Simulasi SPICE untuk rangkaian neuromorfik sederhana
 - [ ] Visualisasi interaktif (Jupyter + `ipywidgets`)
