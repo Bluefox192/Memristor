@@ -16,7 +16,7 @@ Meneliti dan mengembangkan memristor dari dasar teori, simulasi SPICE, hingga ta
 - [✓] Simulasi behavior hysteresis (Python: `mu_v`, `Ron`, `Roff`, dll)
 - [✓] Simulasi SPICE untuk rangkaian neuromorfik sederhana
 - [✓] Visualisasi interaktif (Jupyter + `ipywidgets`)
-- [ ] Benchmark terhadap SRAM/NAND dari segi latency, power, retention
+- [✓] Benchmark terhadap SRAM/NAND dari segi latency, power, retention
 
 ### 3. 🔧 Eksperimen & DIY Lab
 - [ ] Rancang eksperimen resistive switching (TiO₂, Ag₂S, atau CuO)
