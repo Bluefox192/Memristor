@@ -19,7 +19,7 @@ Meneliti dan mengembangkan memristor dari dasar teori, simulasi SPICE, hingga ta
 - [✓] Benchmark terhadap SRAM/NAND dari segi latency, power, retention
 
 ### 3. 🔧 Eksperimen & DIY Lab
-- [ ] Rancang eksperimen resistive switching (TiO₂, Ag₂S, atau CuO)
+- [✓] Rancang eksperimen resistive switching (TiO₂, Ag₂S, atau CuO)
 - [ ] Buat thin film secara manual: drop-casting / spin coating / sol-gel
 - [ ] DIY photolithography (mask, UV exposure, etching)
 - [ ] Karakterisasi: multimeter, SMU (Source Measure Unit), oscilloscope
